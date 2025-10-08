@@ -1,8 +1,12 @@
-import Category from "./components/directory/Categories.directory";
+import Home from "./routes/home/home.component";
+import { Routes, Route } from "react-router";
+import { useState } from "react";
 function App() {
   return (
     <>
-      <Category />
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
     </>
   );
 }
