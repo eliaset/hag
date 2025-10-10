@@ -8,7 +8,6 @@ import {
 
 import { getFirestore, doc, getDoc, setDoc } from "firebase/firestore";
 const firebaseConfig = {
-  apiKey: "AIzaSyDwM0ClGhMnHStWwWezF2M-DPS6qPffLVE",
   authDomain: "hagere-craft.firebaseapp.com",
   projectId: "hagere-craft",
   storageBucket: "hagere-craft.firebasestorage.app",
