@@ -1,0 +1,13 @@
+.authentication-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 900px;
+  margin: 50px auto;
+  padding: 40px;
+  background-color: #fff;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
+  box-sizing: border-box;
+  gap: 40px;
+}
